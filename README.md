@@ -1,46 +1,45 @@
-# Getting Started with Create React App
+# Getting Started
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with Create React App
 
-## Available Scripts
+# Description
+
+This app is a single-page web application that leverages data from the Giphy
+API. The idea is simple, fetch a number of records and list them all. the user will be able to click
+in the preview and be able to preview the record in a increse size. also, the user will be able to filter the
+records by keywords.
+
+# Requirements
+
+• Use React hooks
+• Use Typescript
+• Paginate results
+• Show preview on clicking a gif
+• Filter the results by key word
+
+# Timing
+
+The total amount investe in the proyect was 4h
+
+## How to start
 
 In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+###
+
+In order to run the test just type:
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Folder structure
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+The aproach using in this project is to separate and group files acording the file type/ functionality
+• Component: All the statelless/statefull components are putting here
+• Style: Each component has his own css style
+• Test: All the test will be place here for each component when need it.
+• Types: Contains all the interfaces
+• Common: include all files that works as helpers

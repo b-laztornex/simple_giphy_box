@@ -1,0 +1,76 @@
+.giphyBox {
+  text-align: center;
+  padding: 20px;
+}
+.giphyBox .giphyHeader {
+  display: flex;
+  background-color: rgba(78, 78, 78, 0.846);
+  min-height: 60px;
+  justify-content: center;
+  font-size: calc(1px + 2vmin);
+  color: white;
+  padding: 10px;
+  border-radius: 25px;
+  align-items: center;
+}
+
+.giphyBox .giphyHeader .giphyInput {
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 25px;
+  width: 50%;
+  text-align: center;
+}
+
+.giphyBox .giphyContent {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  padding: 50px;
+  background: whitesmoke;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.giphyBox .giphyContent > * {
+  flex: 1 1 auto;
+}
+
+.giphyBox .giphyFooter .button {
+  cursor: pointer;
+  margin-top: 25px;
+  background-color: green;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.giphyBox .giphyFooter .button:hover {
+  margin-top: 25px;
+  background-color: whitesmoke;
+  color: green;
+}
+
+.giphyBox .giphyFooter .giphyIndicator {
+  font-size: 10px;
+  font-weight: bolder;
+  color: grey;
+}
+
+.giphyMenu {
+  position: fixed;
+  padding: 5px;
+  top: 40px;
+  right: 5px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  font-size: 25px;
+  color: grey;
+  border: 1px solid grey;
+}

@@ -1,0 +1,52 @@
+.modalBox {
+  width: 100vw;
+  height: 100vh;
+  background-color: grey;
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.modalBox .modalContent {
+  width: 80%;
+  height: 80%;
+  border-radius: 12px;
+  background-color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.modalBox .modalContent .modalClose {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  background-color: darkred;
+}
+
+.modalBox .modalContent .modalFrame {
+  overflow: scroll;
+}
+
+.modalBox .modalContent .modalFrame .modalGifTitle {
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: whitesmoke;
+}
+
+.modalBox .modalContent .modalFrame .imageLoading {
+  overflow: scroll;
+}
+
+.modalBox .modalContent .modalFrame .imageLoading img {
+  margin: 0 auto;
+}
